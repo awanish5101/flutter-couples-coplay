@@ -1,0 +1,23 @@
+name: flutter_couples_coplay
+description: "A real-time co-play and synchronized bedtime experience app for couples built with Flutter, Riverpod, and WebSockets."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  web_socket_channel: ^2.4.5
+  http: ^1.2.0
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
